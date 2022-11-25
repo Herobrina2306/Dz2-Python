@@ -9,5 +9,5 @@ n = int(input(f'Введите число: '))
 lst = [1]
 
 for i in range(1, n):
-    lst.append(lst[i - 1] * (i+1))
+    lst.append(lst[i - 1] * (i + 1))
 print(lst)    

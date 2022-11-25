@@ -10,7 +10,7 @@ lst = []
 c = 0
 
 for i in range(n):
-    b = round((1 + 1/(i + 1)) ** (i+1), 2)
+    b = round((1 + 1 / (i + 1)) ** (i + 1), 2)
     c = c + b
     lst.append(b)
 print(lst)
